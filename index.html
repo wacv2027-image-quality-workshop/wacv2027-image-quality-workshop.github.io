@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WVAQ Workshop @ WACV 2027</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>WVAQ 2027</h1>
+            </div>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="main-nav" id="mainNav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#topics">Topics</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#submissions">Call for Papers</a></li>
+            <li><a href="#organizers">Organizers</a></li>
+            <li><a href="#committee">Program Committee</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="conference-logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 100 100" width="120" height="120">
+                            <circle cx="50" cy="50" r="45" fill="none" stroke="white" stroke-width="2"/>
+                            <text x="50" y="60" font-size="26" fill="white" text-anchor="middle" font-weight="bold">WACV</text>
+                        </svg>
+                    </div>
+                    <div class="conference-details">
+                        <h2>WACV 2027</h2>
+                        <p class="location">TBD</p>
+                        <p class="dates">TBD</p>
+                    </div>
+                </div>
+
+                <button class="workshop-badge">WACV 2027 Workshop &middot; Full Day</button>
+
+                <h1 class="hero-title">WVAQ: Image/Video/Audio Quality Assessment in Computer Vision, VLM and Diffusion Model</h1>
+                <p class="hero-subtitle">
+                    6th Workshop on Image/Video/Audio Quality Assessment in Computer Vision, VLM and Diffusion Model<br>
+                    at the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2027
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section" id="about">
+            <div class="container">
+                <h2 class="section-title">About the Workshop</h2>
+                <div class="section-content">
+                    <p>
+                        This workshop addresses topics related to image/video/audio quality assessment in machine learning,
+                        computer vision, VLM, Diffusion Models, and other types of generative AIs.
+                    </p>
+                    <p>
+                        Image, video, and audio quality significantly impacts machine learning and computer vision systems, yet
+                        remains underexplored by the broader research community. Real-world applications&mdash;from streaming services
+                        and autonomous vehicles to cashier-less stores and generative AI&mdash;critically depend on robust quality
+                        assessment and improvement techniques. Despite their importance, most visual learning systems assume
+                        high-quality inputs, while in reality, artifacts from capture, compression, transmission, and rendering
+                        processes can severely degrade performance and user experience.
+                    </p>
+                    <p>
+                        This workshop is particularly timely given the explosive growth of generative AI, which introduces new
+                        challenges in quality assessment for both inputs and outputs. By bringing together researchers from industry
+                        and academia, we aim to systematically investigate how quality issues affect various visual learning tasks
+                        and develop innovative assessment and mitigation techniques. Building on the success of our previous workshops
+                        at WACV (2022&ndash;2026), we expect to stimulate new research directions and attract more talent to this
+                        critical field, ultimately improving the robustness and reliability of computer vision applications across
+                        industries.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section alt-bg" id="topics">
+            <div class="container">
+                <h2 class="section-title">Key Topics</h2>
+                <div class="section-content">
+                    <p>The topics include, but are not limited to:</p>
+                    <ul class="topics-list">
+                        <li>Impact of image/video/audio quality in traditional machine learning and computer vision use cases such as object detection, segmentation, tracking, and recognition</li>
+                        <li>Analyze, model and learn the quality impact from image/video/audio acquisition, compression, transcoding, transmission, decoding, rendering, and/or display</li>
+                        <li>Techniques used to improve image/video/audio quality: brightening, color adjustment, sharpening, inpainting, deblurring, denoising, de-hazing, deraining, demosaicing</li>
+                        <li>Removing artifacts such as shadows, glare, and reflections</li>
+                        <li>Resolution, frame rate, color gamut, dynamic range (SDR vs. HDR)</li>
+                        <li>Noise/echo cancellation, speech enhancement</li>
+                        <li>Novel image/video/audio quality assessment methodologies: full reference, reduced-reference, and non-reference</li>
+                        <li>Impact of image/video/audio quality in multi-modal use cases</li>
+                        <li>Evaluate image/video/audio quality produced by generative AI</li>
+                        <li>Evaluate the hallucination effects in image and video super-resolution and restoration using diffusion models</li>
+                        <li>Techniques to measure the quality consistency across different types of content in video (such as ads, movies, streamed content, etc.)</li>
+                        <li>Datasets, statistics, and theory of image/video/audio quality</li>
+                        <li>Research, applications and system development of the above</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="speakers">
+            <div class="container">
+                <h2 class="section-title">Invited Speakers</h2>
+                <div class="speakers-grid">
+                    <div class="speaker-card">
+                        <div class="speaker-image-placeholder"></div>
+                        <h3>Prof. Sudeep Sarkar</h3>
+                        <p class="affiliation">Professor and Chair, Computer Science and Engineering<br>University of South Florida</p>
+                        <p class="bio">Visual Recognition and Measurement Tasks in Adverse Imaging Conditions</p>
+                        <p class="status confirmed">&#10003; Confirmed</p>
+                    </div>
+                    <div class="speaker-card">
+                        <div class="speaker-image-placeholder"></div>
+                        <h3>Dr. Lijuan Wang</h3>
+                        <p class="affiliation">Member of Technical Staff, Research Manager<br>Microsoft AI Superintelligence</p>
+                        <p class="bio">Topic: TBD</p>
+                        <p class="status tentative">&#9203; Tentative</p>
+                    </div>
+                    <div class="speaker-card">
+                        <div class="speaker-image-placeholder"></div>
+                        <h3>Prof. Kevin Bowyer</h3>
+                        <p class="affiliation">Schubmehl-Prein Family Professor Emeritus, Computer Science and Engineering<br>University of Notre Dame</p>
+                        <p class="bio">Topic: TBD</p>
+                        <p class="status tentative">&#9203; Tentative</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section alt-bg" id="schedule">
+            <div class="container">
+                <h2 class="section-title">Workshop Schedule</h2>
+                <p style="text-align:center; font-weight:bold; font-size:18px;">
+                    Full-Day Workshop<br>
+                    Date &amp; Location: TBD
+                </p>
+                <p class="schedule-note">The schedule below is tentative and subject to change.</p>
+                <div class="schedule-content">
+                    <div class="schedule-table">
+                        <div class="schedule-item">
+                            <span class="time">8:00 - 9:00</span>
+                            <span class="event"><strong>Keynote 1</strong></span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">9:00 - 11:30</span>
+                            <span class="event"><strong>Oral Session 1</strong><br>(including 30 mins break)</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">11:30 - 13:00</span>
+                            <span class="event">Lunch</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">13:00 - 14:00</span>
+                            <span class="event"><strong>Keynote 2</strong></span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">14:00 - 16:00</span>
+                            <span class="event"><strong>Oral Session 2</strong></span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">16:00 - 17:00</span>
+                            <span class="event"><strong>Poster Session</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="submissions">
+            <div class="container">
+                <h2 class="section-title">Call for Papers</h2>
+                <div class="section-content">
+
+                    <p>
+                        We invite original submissions to the 6th Workshop on Image/Video/Audio Quality Assessment in
+                        Computer Vision, VLM and Diffusion Model (WVAQ) at WACV 2027.
+                    </p>
+
+                    <h3>Proceedings</h3>
+                    <p>
+                        Papers accepted by this workshop will be published in the conference proceedings.
+                    </p>
+
+                    <h3>Submission Portal</h3>
+                    <p class="submission-link-container">
+                        <strong>Submit your paper via CMT:</strong><br>
+                        <a href="#" target="_blank" class="submission-link">
+                            Submission Link: TBD
+                        </a>
+                    </p>
+
+                    <h3>Important Dates</h3>
+                    <div class="dates-list">
+                        <div class="date-item">
+                            <strong>Submission Deadline:</strong> TBD
+                        </div>
+                        <div class="date-item">
+                            <strong>Author Notification:</strong> TBD
+                        </div>
+                        <div class="date-item">
+                            <strong>Camera-Ready Deadline:</strong> TBD
+                        </div>
+                        <div class="date-item">
+                            <strong>Workshop Date:</strong> TBD
+                        </div>
+                    </div>
+
+                    <h3>Submission Guidelines</h3>
+                    <ul>
+                        <li>All submissions should follow the same template as for the main WACV 2027 conference, and be submitted via the CMT link provided on the workshop website.</li>
+                        <li>Papers accepted by this workshop will be published in the conference proceedings.</li>
+                    </ul>
+
+                    <h3>Social Impact</h3>
+                    <p>
+                        We expect the topics covered by this workshop to have broad positive societal impact. Advances in computer
+                        vision and generative AI can improve content creation, media restoration and enhancement in the movie and
+                        UGC industries. In particular, developing evaluation methods that better align with human perception&mdash;such
+                        as detecting hallucinations, temporal inconsistencies, and localization errors beyond existing objective
+                        quality metrics&mdash;can lead to more reliable and trustworthy AI systems.
+                    </p>
+                    <p>
+                        At the same time, we recognize that these technologies may also be misused, for example to create misleading
+                        synthetic media or raise concerns related to privacy, fairness, and misinformation. We encourage authors to
+                        discuss the broader societal implications of their work where appropriate. In addition to technical quality
+                        and novelty, the organizing committee will consider responsible research practices and potential societal
+                        impact during the review process.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section alt-bg" id="organizers">
+            <div class="container">
+                <h2 class="section-title">Organizers</h2>
+                <div class="organizers-grid">
+                    <div class="organizer-card">
+                        <h3>Dr. Yarong Feng</h3>
+                        <p class="affiliation">Applied Scientist<br>Amazon</p>
+                        <p class="email">yarongf@amazon.com</p>
+                        <p class="bio">Ph.D. in Statistics from George Washington University. Research interests include probability theory, random graphs, audio signal processing, computer vision, and deep learning.</p>
+                    </div>
+                    <div class="organizer-card">
+                        <h3>Dr. Zongyi (Joe) Liu</h3>
+                        <p class="affiliation">Principal Computer Vision Scientist<br>Amazon</p>
+                        <p class="email">joeliu@amazon.com</p>
+                        <p class="bio">Ph.D. in Computer Science and Engineering from University of South Florida. 15+ years of industrial research experience in computer vision, image processing, and signal processing, with 20+ publications (including CVPR and PAMI) and 10+ patents.</p>
+                    </div>
+                    <div class="organizer-card">
+                        <h3>Dr. Qipin Chen</h3>
+                        <p class="affiliation">Applied Scientist<br>Amazon</p>
+                        <p class="email">qipinche@amazon.com</p>
+                        <p class="bio">Ph.D. in Computational Mathematics from Penn State University. Specializes in computer vision, multimodal learning, and natural language processing, with 8 publications (including JCS and ICIP) and two patents.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="committee">
+            <div class="container">
+                <h2 class="section-title">Program Committee</h2>
+                <div class="section-content">
+                    <p>Tentative program committee:</p>
+                    <ul class="topics-list">
+                        <li>Minmin Shen, Amazon</li>
+                        <li>Kumar Rahul, Amazon</li>
+                        <li>Xiang Shen, Meta</li>
+                        <li>Yao Li, Microsoft</li>
+                        <li>Yumeng Ma, Apple</li>
+                        <li>Ruiduo Yang, Google</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section alt-bg" id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="section-content">
+                    <p>For any questions or inquiries, please contact us at:</p>
+                    <p class="contact-email"><strong>Email:</strong> wacv2027-image-quality-workshop@amazon.com</p>
+                    <p>Primary contact: Zongyi (Joe) Liu &mdash; joeliu@amazon.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2027 WVAQ Workshop @ WACV 2027. All rights reserved.</p>
+            <p>6th Workshop on Image/Video/Audio Quality Assessment in Computer Vision, VLM and Diffusion Model</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
